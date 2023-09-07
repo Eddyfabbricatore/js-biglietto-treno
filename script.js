@@ -1,5 +1,5 @@
-let km = prompt('Inserisci il numero di km da percorrere');
-let age = prompt('Inserisci il numero di anni');
+let km = parseInt(prompt('Inserisci il numero di km da percorrere'));
+let age = parseInt(prompt('Inserisci il numero di anni'));
 let output = document.getElementById('output');
 let price = km * 0.21;
 let message;
